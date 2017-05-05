@@ -1,0 +1,80 @@
+html *
+{
+	font-family: "Verdana";
+}
+
+#box {
+	width: 100%;
+}
+	
+.navbar {
+	height: 150px;
+	width: 100%;
+	border: 3px solid #f1f1f1;
+	margin-bottom: 20px;
+}
+	
+form {
+	text-align: center;
+	margin: 0px auto;
+	width: 75%;
+    border: 3px solid #f1f1f1;
+}
+
+#quizlogo{
+	float: right;
+	padding: 20px;
+}
+
+input, select{
+    margin: 0px auto; 
+	width: 50%;
+    padding: 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	border-radius: 10px;
+}
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
+button {
+	margin: 0px auto;
+    background-color: #57b3f7;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px;
+    width: 50%;
+	border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.cancelbtn {
+	margin: 0px auto;
+    width: auto;
+    padding: 15px 20px;
+    background-color: #686a71;
+}
+	
+.signup {
+	margin: 0px auto;
+    width: auto;
+    padding: 15px 20px;
+}
+	
+.container {
+    padding: 15px;
+	margin: 0px auto;
+}
+
+.container2 {
+	text-align: center;
+	margin: auto;
+	width: 75%;
+    border: 3px solid #f1f1f1;
+}

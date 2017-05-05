@@ -1,0 +1,47 @@
+<!doctype html>
+
+<!--Eamon, for some reason the quiz part will only work on chrome-based browsers-->
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Car Quiz</title>
+<link href="css/signup.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+		<div class="navbar">
+			<img src="images/veyron.jpg" alt="Car" height = "140" width = "300">
+			<img src="images/quiz.png" id="quizlogo" alt="Quiz" height = "75" width = "250">
+		</div>
+
+		<div id="box">
+			<form action="quiz.html" method="post">
+			<div class="container">
+			
+				<h3> Enter your details to Begin! </h3>
+				<input id ="fname" type="text" size = "15" placeholder="First name*" required></input>
+				<input id ="sname" type="text" size = "15" placeholder="Last name*" required></input>
+				<input id = "number" type="number" placeholder="Mobile Number*" required></input>
+				<input id = "email" type="email" placeholder="Email address*" required></input>
+				<br>
+				<input id = "pword" placeholder="Enter Password*" type="password" required></input>
+				<br>
+				
+				</div>
+				
+				<button type="submit" onclick="store()"><b>Continue</b></button>
+		</div>
+					 
+		<div class="container" style="background-color:#f1f1f1">
+			<button type="reset" class="cancelbtn">Cancel</button>
+		</div>
+		
+		</form>
+	</div><!-- END OF BOX-->
+</div><!--END OF WRAP-->
+<script src="js/signup.js">
+</script>
+</body>
+</html>
